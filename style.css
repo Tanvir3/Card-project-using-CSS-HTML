@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+}
+
+.header-contents{
+  background-image: radial-gradient(circle, white, #333);
+  color: black;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  font-family: "Satisfy", cursive;
+  font-size: x-large;
+  font-weight: 400;
+  font-style: normal;
+  padding: 20px;
+  text-shadow: 1px 1px 8px rgb(71, 90, 4);
+}
+
+.main-contents{
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  align-items: center;
+}
+
+.card{
+  width: 255px;
+  height: 335px;
+  box-sizing: border-box;
+  background-color: rgb(190, 253, 218);
+  box-shadow: 1px 2px 4px black;
+  border-radius: 15px;
+  padding: 4px;
+  margin: 15px;
+}
+
+.card:hover{
+  box-shadow:6px 12px 10px rgb(46, 161, 113);
+  width: 330px;
+  height: 363px;
+} 
+
+.card-image{
+  height: 60%;
+}
+.card-img-content{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.card-description{
+  padding: 2%;
+  font-size: small;
+  text-align:left;
+  line-height: normal;
+}
+
+.card-title{
+  font-size:x-large;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  text-shadow: 1px 1px 8px rgb(71, 90, 4);
+}
+
+main{
+  margin-bottom: 25px;
+}
+
+.footer-contents{
+  text-align: center;
+  color: white;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
